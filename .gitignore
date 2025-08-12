@@ -1,0 +1,10 @@
+node_modules/
+client/dist/
+server/dist/
+build/
+.env
+.vscode/
+logs
+*.log
+tmp/
+temp/
