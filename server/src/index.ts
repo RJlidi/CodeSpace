@@ -35,7 +35,7 @@ const io = new Server<
   SocketData
 >(server, {
   cors: {
-    origin: ["http://localhost:5173"],
+    origin: ["http://localhost:5173", "https://codespace-7esk.onrender.com/"],
     methods: ["GET", "POST"],
   },
 });
